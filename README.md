@@ -26,16 +26,8 @@ If a Gaussian pulse is input to a linear system with a Gaussian impulse response
 ---
 
 ## Calculations
-**System Parameters:**
+<img width="1076" height="1280" alt="WhatsApp Image 2026-09-03 at 6 55 56 AM" src="https://github.com/user-attachments/assets/8b8a3de9-ba1d-4d8d-8578-4d64e227db6c" />
 
-| Component | Parameter | Value |
-|-----------|-----------|-------|
-| Transmitter – Gaussian Pulse Generator | Operating wavelength | 1550 nm |
-| | Bit rate | 2.5 Gb/s |
-| | FWHM pulse width | 0.5 bit period |
-| | Chirp factor | -6 |
-| Fiber | Type | Corning SMF-28 |
-| | Length | 50 km |
 
 **Required Calculations:**
 <img width="1548" height="298" alt="image" src="https://github.com/user-attachments/assets/b2fb676a-afb0-48ef-914b-309b2ea38a17" />
@@ -54,7 +46,9 @@ Place and connect the following components:
 - Set the parameters and run the simulation.  
 - Use the visualizer displays to measure:  
   - FWHM width of input and output pulses  
-  - FWHM width of optical spectra  
+  - FWHM width of optical spectra
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7558c0e2-ea83-4eae-a292-829c4b233bab" />
+
 
 ---
 
@@ -65,6 +59,17 @@ Compare the simulation results with the theoretical calculations and discuss any
 ---
  Results to Record
 <img width="1448" height="1015" alt="Screenshot 2026-02-05 113211" src="https://github.com/user-attachments/assets/5a7b450e-e6d6-4efc-8c33-791775fdfa8c" />
+## Result
+The theoretical broadening ratio (
+σ
+out
+/
+σ
+in
+) for a chirped Gaussian pulse over 
+50
+ km
+ of SMF-28 fiber was calculated using the linear system model formulas. The OptiSystem simulation confirmed these analytical results, showing precise agreement between the measured input/output pulse widths and the expected broadening profile influenced by the negative laser chirp factor.
 
 
 
